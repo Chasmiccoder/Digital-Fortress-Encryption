@@ -1,7 +1,6 @@
 '''
 Digital Fortress Main Program:
 
-Total Lines of Code = 426 ( which obviously includes blank lines... :P )
 How to Use:
 First, the program runs a check on a test message. If the ouput is not equal to
 the given message, do not proceed.
@@ -65,7 +64,7 @@ print()
 while True:
     delayEffect()
 
-    print("Today's Menu: ")
+    print("Choose a task: ")
     print('''    1 - To Encrypt a message
     2 - To Decrypt a message
     3 - To Encrypt a file
