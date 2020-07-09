@@ -1,4 +1,4 @@
-# Digital-Fortress-Encryption-Software
+# Digital Fortress (Encryption-Software)
 Inspired by Dan Brown's sci-fi book Digital Fortress, we are developing our own version of algorithm based encryption.
 
 The way it works is that once a string is input, we first convert it to 
