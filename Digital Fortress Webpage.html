@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Digital Fortress Encryption</title>
+</head>
+<body>
+    <h4>Welcome to the Digital Fortress!</h2>
+    <p>This application has been inspired by Dan Brown's book Digital Fortress.</p>
+    <p>The way it works is that once a string is input, we first convert it to 
+       its ascii representation, after which the digits are shuffled according to 
+       a randomly selected integer from 1 to 6. That integer gets added to the encrypted string. 
+       Once the first layer gets encrypted, a random seed is chosen 
+       (according to which a list gets randomly shuffled) 
+       and the final output is provided (with that seed).
+       
+       In order to decrypt a particular string, you need to provide the string and the seed, which acts as a 
+       private key. This new approach is excellent, especially due to the advent of quantum computers, because
+       of which standard encryption algorithms might not last. 
+       
+       The only drawback is the bandwidth of the final string, which is four times as long 
+       as the original.
+    </p>
+</body>
+</html>
