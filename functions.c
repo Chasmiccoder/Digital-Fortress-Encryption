@@ -16,6 +16,4 @@ randomTier3( ) -> A function that holds a fixed, one dimension array, and that s
 This function returns the shuffled list, and the seed according to which it has been shuffled.
 
 */
-
-
-
+#include <stdio.h>
