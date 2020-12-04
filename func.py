@@ -56,6 +56,7 @@ def sortList(l):
     return l
 
 
+#??
 def fourDigitConcatenation(message):
     new = ''
     for i in range(0, len(message)):
@@ -64,7 +65,7 @@ def fourDigitConcatenation(message):
 
     return new
 
-
+#??
 def fourDigitDeConcatenation(message):
     new = ''
     upper = 4

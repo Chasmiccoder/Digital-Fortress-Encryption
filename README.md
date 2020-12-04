@@ -1,6 +1,7 @@
 # Digital Fortress (Encryption-Software)
 Inspired by Dan Brown's sci-fi book Digital Fortress, we are developing our own version of algorithm based encryption.
 
+## Explaining the Algorithm - 
 The way it works is that once a string is input, we first convert it to 
 its ascii representation, after which the digits are shuffled according to 
 a randomly selected integer from 1 to 6. That integer gets added to the encrypted string. 
@@ -19,3 +20,5 @@ known, and if the seed (private key) is known, the cryptanalysts still will not 
 the string. This is because the string itself has been randomised in such a way that even if the same 
 string gets encrypted twice (with the same seed) the odds of the string being the same (in the final output)
 are one in (48)^n, where n is the number of characters in the string.
+
+## Add a button to change the encryption type from DF to RSA, etc.
